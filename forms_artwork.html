@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Artworks</title>
+    </head>
+    <body>
+        <form action="handle_form.php" method="post">
+           <fieldset>
+               <legend>
+                   Enter the Artworks's Information below:
+               </legend>
+               
+               <p><label>Artwork Title: 
+                    <input type="text" name="artwork_title" size="15"
+                           maxlength='100' />
+               </label>
+                   <label>Year created:
+                       <input type="text" name="year" size="15"
+                              maxlength='100'/>               
+                </label>
+               </p>
+               <p><label>Movement in Art:
+                    <input type="text" name="movement" size="15"
+                           maxlength ='100' />                   </label>
+                   <label>Price:
+                    <input type="number" name="price" size="15"
+                           maxlength ='100' />                   </label>
+               </p>
+               
+             
+                  <p><label>Description: <textarea name="description" cols="50" rows="5">...</textarea></label>
+               </p>
+              
+                
+               
+            </fieldset> 
+        </form>
+    </body>
+    
+    </html>

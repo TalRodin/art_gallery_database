@@ -4,23 +4,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Art Gallery Form</title>
+        <style type="text/css">
+            form{
+                
+                font-family: Arial, Verdana, sans-serif;
+                font-size:12px;
+                box-shadow: 5px 5px 20px #ccc;
+                border-radius:3px;
+                
+            }
+        
+        </style>
     </head>
     <body>
-        <form action="handle_form.php" method="post">
+        <form action="handle_artist_form.php" method="post">
            <fieldset>
                <legend>
                    Enter the Artist's Information below:
                </legend>
+              
                
                <p><label>First Name: 
                     <input type="text" name="first_name" size="15"
                            maxlength='100' />
                </label>
+             
                   <label>Last Name:
                        <input type="text" name="last_name" size="15"
                               maxlength='100'/>               
                 </label>
                </p>
+               
                
                
                <p><label>Birth Date:

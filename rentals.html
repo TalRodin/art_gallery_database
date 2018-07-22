@@ -4,40 +4,74 @@
     <head>
         <meta charset="UTF-8">
         <title>Rental</title>
+        <style type="text/css">
+            form{
+                
+                font-family: Arial, Verdana, sans-serif;
+                font-size:12px;
+                box-shadow: 5px 5px 20px #ccc;
+                border-radius:3px;
+                
+            }
+          
+        </style>
     </head>
     <body>
-        <form action="handle_form.php" method="post">
+        <form action="handle_form_rental.php" method="post">
            <fieldset>
                <legend>
-                   Rental:
-               </legend>              
-               <p><label>Artwork Title: 
+                   Rentals:
+               </legend> 
+               <table border='1' bgcolor='#FFFFFF'>
+                   <tr>
+                       
+               <p><th ><label>Artwork Title: 
                        <input type="text" name="artwork_title" size="15"
-                           maxlength='100' />
-                  </label>
+                           maxlength='200' />
+                   </label></th>
+                   <th >
                   <label>Year created:
                        <input type="text" name="year" size="15"
                               maxlength='100'/>               
                   </label>
-               </p>
-               <p><label>Movement in Art:
+               </th>
+                   <th>
+                  <label>Movement in Art:
                        <input type="text" name="movement" size="15"
                            maxlength ='100' />                  
                    </label>
-                   <label>Rental Price:
+                   </th>
+                   </p>  
+                  </tr>
+                       
+                                
+                <tr>  
+                <p><th>
+                    <label>Rental Price:
                        <input type="number" name="rental_price" size="15"
                            maxlength ='100' />                   
                    </label>
-               </p>              
-               <p><label>Start Date:
-                       <input type="date" name="start date" size="15"
+                      </th> 
+                    <th>
+               <label>Start Date:
+                       <input type="date" name="start_date" size="15"
                            maxlength ='100' />                   
                   </label>
+                        </th>
+                    <th>
                   <label>End Date:
-                       <input type="date" name="end date" size="15"
+                       <input type="date" name="end_date" size="15"
                            maxlength ='100' />                   
                    </label>
-               </p>              
+                    </th>
+               </p>  
+                   
+               </tr>    
+                   
+               </table>
+               
+               
+               
             </fieldset> 
              <p align="center">
                     <input type="submit" name="submit" value="Save" />

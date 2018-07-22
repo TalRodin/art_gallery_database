@@ -4,9 +4,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Exhibitions</title>
+        <style type="text/css">
+            form{
+                
+                font-family: Arial, Verdana, sans-serif;
+                font-size:12px;
+                box-shadow: 5px 5px 20px #ccc;
+                border-radius:3px;
+                
+            }
+          
+        </style>
     </head>
     <body>
-        <form action="handle_form.php" method="post">
+        <form action="handle_form_exhibition.php" method="post">
            <fieldset>
                <legend>
                    Exhibitions:
@@ -37,10 +48,10 @@
                     <input type="text" name="city" size="15"
                            maxlength ='100' />                   
                    </label>
-                  <label>Zip Code:
-                    <input type="text" name="zip code" size="15"
-                           maxlength ='100' />                   
-                   </label>
+                   <label>Zip Code:
+                       <input type="text" name="zip" size="30"
+                           maxlength ='20' />  
+                   </label> 
                   <label>State:
                     <input type="text" name="state" size="15"
                            maxlength ='100' />                   

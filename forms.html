@@ -12,8 +12,17 @@
                 box-shadow: 5px 5px 20px #ccc;
                 border-radius:3px;
                 
+                
             }
-        
+            input,country, textarea{
+                
+                background-color: #f2f2f2;
+                border-radius: 4px;
+                border: 1px solid #bdbdbd;
+                
+                
+            }
+          
         </style>
     </head>
     <body>
@@ -66,7 +75,7 @@
                </label>
                
                <label>Country:
-                       <select name="country">
+                       <select name="country" class='country'>
                            <option value="empty"></option>
                            <option value="Afg">Afghanistan</option>
                            <option value="Alb">Albania</option>
@@ -280,7 +289,7 @@
                    </label>
                </p>
                </fieldset>
-               <p align="center">
+               <p align="center" >
                     <input type="submit" name="submit" value="Save" />
                </p>
              

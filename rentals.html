@@ -13,7 +13,14 @@
                 border-radius:3px;
                 
             }
-          
+          input{
+                
+                background-color: #f2f2f2;
+                border-radius: 4px;
+                border: 1px solid #bdbdbd;
+                
+                
+            }
         </style>
     </head>
     <body>
@@ -23,55 +30,50 @@
                    Rentals:
                </legend> 
                <table border='1' bgcolor='#FFFFFF'>
-                   <tr>
+                
                        
-               <p><th ><label>Artwork Title: 
+               <p><label>Artwork Title: 
                        <input type="text" name="artwork_title" size="15"
                            maxlength='200' />
-                   </label></th>
-                   <th >
+                   </label>
+                  
                   <label>Year created:
                        <input type="text" name="year" size="15"
                               maxlength='100'/>               
                   </label>
-               </th>
-                   <th>
+             
                   <label>Movement in Art:
                        <input type="text" name="movement" size="15"
                            maxlength ='100' />                  
                    </label>
-                   </th>
+                
                    </p>  
-                  </tr>
+                
                        
                                 
-                <tr>  
-                <p><th>
+               
+                <p>
                     <label>Rental Price:
                        <input type="number" name="rental_price" size="15"
                            maxlength ='100' />                   
                    </label>
-                      </th> 
-                    <th>
+               
                <label>Start Date:
                        <input type="date" name="start_date" size="15"
                            maxlength ='100' />                   
                   </label>
-                        </th>
-                    <th>
+              
                   <label>End Date:
                        <input type="date" name="end_date" size="15"
                            maxlength ='100' />                   
                    </label>
-                    </th>
+                  
                </p>  
                    
-               </tr>    
+                 
                    
                </table>
-               
-               
-               
+   
             </fieldset> 
              <p align="center">
                     <input type="submit" name="submit" value="Save" />

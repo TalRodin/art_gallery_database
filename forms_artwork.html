@@ -11,7 +11,8 @@
                 font-size:12px;
                 box-shadow: 5px 5px 20px #ccc;
                 border-radius:3px;
-                
+                width: 430px;
+                text-align: left;
             }
              input, textarea{
                 
@@ -20,6 +21,19 @@
                 border: 1px solid #bdbdbd;
                 
                 
+            }
+            legend{
+                background-color: #efefef;
+                border: 1px solid #dcdcdc;
+                border-radius: 10px;
+                padding: 10px 20px;
+                text-align: left;
+                text-transform: uppercase;
+                              
+            }
+            fieldset{
+                width: 400px;
+                padding: 5px
             }
         </style>
     </head>
@@ -53,11 +67,12 @@
                    <label>Description: 
                        <textarea name="description" cols="50" rows="5"></textarea>
                    </label>
-               </p>        
-            </fieldset> 
-             <p align="center">
+               </p>  
+               <p align="center">
                     <input type="submit" name="submit" value="Save" />
                </p>
+            </fieldset> 
+             
         </form>
     </body>
 </html>

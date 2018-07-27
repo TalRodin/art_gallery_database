@@ -11,15 +11,27 @@
                 font-size:12px;
                 box-shadow: 5px 5px 20px #ccc;
                 border-radius:3px;
-                
+                width: 430px;
+                text-align: left;         
             }
              input{
                 
                 background-color: #f2f2f2;
                 border-radius: 4px;
-                border: 1px solid #bdbdbd;
-                
-                
+                border: 1px solid #bdbdbd;   
+            }
+                legend{
+                background-color: #efefef;
+                border: 1px solid #dcdcdc;
+                border-radius: 10px;
+                padding: 10px 20px;
+                text-align: left;
+                text-transform: uppercase;
+                              
+            }
+            fieldset{
+                width: 400px;
+                padding: 5px
             }
         </style>
     </head>
@@ -31,49 +43,39 @@
                </legend>
                
                <table border='1' bgcolor='#FFFFFF'>
-                  
-               
                <p>
                    <label>Artwork Title: 
                        <input type="text" name="artwork_title" size="15"
                            maxlength='100' />
                    </label>
-                  
-                  
                    <label>Year created:
                        <input type="text" name="year" size="15"
                               maxlength='100'/>               
                    </label>
-                
+                </p>    
+              <p> 
                <label>Movement in Art:
                        <input type="text" name="movement" size="15"
                            maxlength ='100' />                   
                    </label>
-                   
-               </p>    
-            
-              <p>
-                  
+               </p>            
+              <p>  
                   <label>Purchase Price:
                        <input type="number" name="purchase_price" size="15"
                            maxlength ='100' />                   
-                   </label>
-                       
-                  
+                   </label>                
               <label>Order Date:
                        <input type="text" name="order_date" size="15"
                            maxlength ='100' />                   
                  </label> 
                    
               </p>    
-               
+
                </table>
-               
+              <p align="center">
+                    <input type="submit" name="submit" value="Submit" />
+               </p>  
           </fieldset> 
-     
-             <p align="center">
-                    <input type="submit" name="submit" value="Save" />
-               </p>
        </form>
     </body>
 </html>

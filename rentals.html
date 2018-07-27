@@ -11,7 +11,8 @@
                 font-size:12px;
                 box-shadow: 5px 5px 20px #ccc;
                 border-radius:3px;
-                
+                width: 430px;
+                text-align: left;
             }
           input{
                 
@@ -20,6 +21,20 @@
                 border: 1px solid #bdbdbd;
                 
                 
+            }
+            
+                legend{
+                background-color: #efefef;
+                border: 1px solid #dcdcdc;
+                border-radius: 10px;
+                padding: 10px 20px;
+                text-align: left;
+                text-transform: uppercase;
+                              
+            }
+            fieldset{
+                width: 400px;
+                padding: 5px
             }
         </style>
     </head>
@@ -41,7 +56,12 @@
                        <input type="text" name="year" size="15"
                               maxlength='100'/>               
                   </label>
-             
+                 </p>  
+                
+                       
+                                
+               
+                <p>
                   <label>Movement in Art:
                        <input type="text" name="movement" size="15"
                            maxlength ='100' />                  
@@ -57,7 +77,12 @@
                        <input type="number" name="rental_price" size="15"
                            maxlength ='100' />                   
                    </label>
+                   </p>  
+                
+                       
+                                
                
+                <p>
                <label>Start Date:
                        <input type="date" name="start_date" size="15"
                            maxlength ='100' />                   
@@ -73,11 +98,11 @@
                  
                    
                </table>
-   
-            </fieldset> 
-             <p align="center">
+     <p align="center">
                     <input type="submit" name="submit" value="Save" />
                </p>
+            </fieldset> 
+           
         </form>
     </body>    
 </html>

@@ -11,7 +11,8 @@
                 font-size:12px;
                 box-shadow: 5px 5px 20px #ccc;
                 border-radius:3px;
-                
+                width: 430px;
+                text-align: left;
             }
             
           input,country{
@@ -21,6 +22,19 @@
                 border: 1px solid #bdbdbd;
                 
                 
+            }
+            legend{
+                background-color: #efefef;
+                border: 1px solid #dcdcdc;
+                border-radius: 10px;
+                padding: 10px 20px;
+                text-align: left;
+                text-transform: uppercase;
+                              
+            }
+            fieldset{
+                width: 400px;
+                padding: 5px
             }
         </style>
     </head>
@@ -56,6 +70,8 @@
                     <input type="text" name="city" size="15"
                            maxlength ='100' />                   
                    </label>
+                </p>          
+               <p>   
                    <label>Zip Code:
                        <input type="text" name="zip" size="30"
                            maxlength ='20' />  
@@ -64,6 +80,8 @@
                     <input type="text" name="state" size="15"
                            maxlength ='100' />                   
                    </label>
+                   </p>          
+               <p>
                  <label>Country:
                        <select name="country">
                            <option value="empty"></option>
@@ -266,11 +284,12 @@
                        </select>
                        
                    </label>                
-               </p>           
-            </fieldset> 
-             <p align="center">
-                    <input type="submit" name="submit" value="Save" />
+               </p> 
+               <p align="center">
+                    <input type="submit" name="submit" value="Submit" />
                </p>
+            </fieldset> 
+             
         </form>
     </body>
 </html>
